@@ -13,6 +13,7 @@ sed -i '' \
   -e "s|releases/tag/v[0-9]*\.[0-9]*\.[0-9]*|releases/tag/v${VERSION}|g" \
   -e "s|releases/download/v[0-9]*\.[0-9]*\.[0-9]*/Outworked-[0-9]*\.[0-9]*\.[0-9]*|releases/download/v${VERSION}/Outworked-${VERSION}|g" \
   -e "s|Download_for_macOS-v[0-9]*\.[0-9]*\.[0-9]*|Download_for_macOS-v${VERSION}|g" \
+  -e "s|Download_for_Linux-v[0-9]*\.[0-9]*\.[0-9]*|Download_for_Linux-v${VERSION}|g" \
   README.md
 
 # RELEASE_TEMPLATE.md — update version in download links and filenames
